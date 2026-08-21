@@ -1,0 +1,49 @@
+cys_num: 2
+distance_constraints: []
+fixed_group:
+- 0
+- 3
+- 1
+- 2
+gpu_index: 0
+init_model: null
+initial_ligand_seq: C______C
+is_nc_cyclic: false
+jumpout_num: 5
+ligand_seq_locked_mask: []
+max_ligand_extend_length: 12
+max_run_time: 10.0
+model_path: /home/fuxin/.boltz/boltz2_conf.ckpt
+num_iterations: 800
+num_samples: 3
+only_loss: true
+output_dir: /home/fuxin/lab/zrj/HighPlay3/output/GABARAP/
+padding_length: 384
+peptide_length: 8
+plDDT_only: false
+pocket:
+  A:
+  - 20
+  - 24
+  - 25
+  - 28
+  - 30
+  - 32
+  - 46
+  - 48
+  - 50
+  - 60
+  - 63
+  - 64
+  - 104
+random_init_ligand_seq: true
+receptor_data: /home/fuxin/lab/zrj/HighPlay3/output/GABARAP/GAB_626_feature.pkl
+receptor_name: GAB_626
+receptor_seq:
+- MKFVYKEEHPFEKRRSEGEKIRKKYPDRVPVIVEKAPKARIGDLDKKKYLVPSDLTVGQFYFLIRKRIHLRAEDALFFFVNNVIPPTSATMGQLYQEHHEEDFFLYIAYSDESVYGL
+receptor_type:
+- 1
+- 2
+use_fixed_group: false
+use_ptms: true
+user_restypes: /home/fuxin/lab/zrj/HighPlay3/user_extra_restypes.json
